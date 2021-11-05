@@ -1,0 +1,6 @@
+# Limits are defined based on the IRB1200 product specifications
+cartesian_limits:
+  max_trans_vel: 1.5  # m/s, speed of conveyor: 1.2 m/s
+  max_trans_acc:  50  # m/s^2
+  max_trans_dec: -50  # m/s^2
+  max_rot_vel: 8 # rad/s
