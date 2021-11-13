@@ -7,7 +7,7 @@ Panels:
         - /TF1
         - /TF1/Frames1
       Splitter Ratio: 0.5170649886131287
-    Tree Height: 716
+    Tree Height: 357
   - Class: rviz/Help
     Name: Help
   - Class: rviz/Views
@@ -300,7 +300,10 @@ Visualization Manager:
       Marker Topic: /rviz_visual_tools
       Name: MarkerArray
       Namespaces:
-        {}
+        Axis: true
+        Path: true
+        Sphere: true
+        Text: true
       Queue Size: 100
       Value: true
     - Class: rviz/TF
@@ -365,7 +368,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 1.666791319847107
+      Distance: 1.9676309823989868
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -373,17 +376,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 0.1859586238861084
-        Y: -0.250568687915802
-        Z: 5.215412102188566e-07
+        X: 0.8454742431640625
+        Y: 0.06531548500061035
+        Z: 1.0594870900604292e-06
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.5247963070869446
+      Pitch: 0.3447958528995514
       Target Frame: base_link
-      Yaw: 0.8917573690414429
+      Yaw: 5.4849443435668945
     Saved: ~
 Window Geometry:
   Displays:
