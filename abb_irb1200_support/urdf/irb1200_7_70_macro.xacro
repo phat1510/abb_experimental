@@ -164,12 +164,18 @@
     <link name="${prefix}flange">  
       <collision name="collision">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/vacuum_gripper_vgc10/irb1200_7_70_vacuum_gripper_vgc10_b.stl" />
+          <mesh filename="package://abb_irb1200_support/meshes/vacuum_gripper_vgc10/irb1200_7_70_vacuum_gripper_vgc10_15mm.stl" />
+          <!-- <mesh filename="package://abb_irb1200_support/meshes/vacuum_gripper_vgc10/irb1200_7_70_vacuum_gripper_vgc10_30mm.stl" /> -->
+          <!-- <mesh filename="package://abb_irb1200_support/meshes/vacuum_gripper_vgc10/irb1200_7_70_vacuum_gripper_vgc10_40mm_short.stl" /> -->
+          <!-- <mesh filename="package://abb_irb1200_support/meshes/vacuum_gripper_vgc10/irb1200_7_70_vacuum_gripper_vgc10_40mm_long.stl" /> -->
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/vacuum_gripper_vgc10/irb1200_7_70_vacuum_gripper_vgc10_b.stl" />
+          <mesh filename="package://abb_irb1200_support/meshes/vacuum_gripper_vgc10/irb1200_7_70_vacuum_gripper_vgc10_15mm.stl" />
+          <!-- <mesh filename="package://abb_irb1200_support/meshes/vacuum_gripper_vgc10/irb1200_7_70_vacuum_gripper_vgc10_30mm.stl" /> -->
+          <!-- <mesh filename="package://abb_irb1200_support/meshes/vacuum_gripper_vgc10/irb1200_7_70_vacuum_gripper_vgc10_40mm_short.stl" /> -->
+          <!-- <mesh filename="package://abb_irb1200_support/meshes/vacuum_gripper_vgc10/irb1200_7_70_vacuum_gripper_vgc10_40mm_long.stl" /> -->
         </geometry>
         <material
         name="">
